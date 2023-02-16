@@ -1,0 +1,82 @@
+:root{
+    --root-color:#7c3aed;
+    --color:white;
+}
+.container{
+    font-family:"Megrim", cursive;;
+   margin:-8px;
+   height:2rem;
+   padding:1rem;
+   color:var(--color);
+    background-color:var(--root-color); 
+    
+}
+.add-on{
+    text-align:right;
+    padding:0;
+    
+}
+a{
+    padding:0px;
+    text-decoration:none;
+    color:var(--color);
+    
+    
+}
+.heading{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    font-weight:bolder;
+}
+
+.questions{
+    text-align:center;
+    padding:1rem;
+    font-size:x-large;
+    }
+    #button{
+        font-size:large;
+        margin:2rem;
+        padding:0.7rem;
+        border-radius:10px;
+        border-color:var(--root-color);
+        background-color:var(--root-color);
+        color:var(--color);
+        cursor:pointer
+        
+    }
+
+    div{
+        text-align:center ;
+    }
+    span{
+        padding-right:1rem;
+       font-size:larger;
+       font-weight:500;
+        
+    }
+    p{
+        text-align:center;
+        padding-bottom:2rem;
+    }
+.no-bullets{
+    margin:1rem;
+    display:inline;
+
+}
+.highlight{
+    font-weight:bold;
+}
+
+
+/*is triangle.html*/
+.heading.modify{
+    font-weight:lighter;
+    color:var(--root-color)
+}
+.takeInput{
+    width:15%;
+    padding:0.5rem;
+    border-radius:10px;
+    border-color:var(--root-color)
+}
