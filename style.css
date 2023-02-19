@@ -48,6 +48,7 @@ a{
 
     div{
         text-align:center ;
+        
     }
     span{
         padding-right:1rem;
@@ -57,7 +58,7 @@ a{
     }
     p{
         text-align:center;
-        padding-bottom:2rem;
+        padding-bottom:0rem;
     }
 .no-bullets{
     margin:1rem;
@@ -79,4 +80,20 @@ a{
     padding:0.5rem;
     border-radius:10px;
     border-color:var(--root-color)
+}
+.footer{
+    text-align:center;
+    font-weight:lighter;
+    margin-top:5rem;
+}
+.colours{
+     font-size:large;
+     color:var(--root-color);
+}
+.Input_for_isTriangle{
+    
+    text-align:center ;
+    font-size:larger;
+    font-style: italic;
+    font-weight:600;
 }
