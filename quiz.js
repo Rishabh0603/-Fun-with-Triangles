@@ -5,10 +5,10 @@ var forms = document.querySelector("#forms");
 var correctAnswers=["90°","right angled","one right angle","12, 16, 20","Equilateral triangle","85°","40°","a + b + c","two","45°"];
 
 function calculateScore(){
-   var score = 0;
-   var index =0;
-   var formresult = new FormData(forms);
-  for(var value of formresult.values()){
+   let score = 0;
+   let index =0;
+   let formresult = new FormData(forms);
+  for(let value of formresult.values()){
     console.log(value);
     if(value === correctAnswers[index])
      score += 1;
