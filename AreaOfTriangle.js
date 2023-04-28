@@ -36,7 +36,7 @@ area = area.toFixed(3);
 if(area != -1){
 output.innerText ="Area of triangle using heron's formula is  "+area+" units";}
 else
-output.innerText = "Please enter valid sides";
+alert("Please enter valid sides");
 
    }
 

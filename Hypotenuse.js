@@ -14,7 +14,7 @@ function controlEventListener(){
     var hypotenuse = Math.sqrt(Math.pow(base_value,2) + Math.pow(height_value,2)).toFixed(2);
     output.innerText = "The length of hypotenuse is " + hypotenuse+" units";}
     else
-    output.innerText="Please enter correct value";
+    alert("Please enter correct value");
 
 }
 button.addEventListener("click",controlEventListener);
